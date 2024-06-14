@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 50%;
+}
+
+.addpost {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+    margin: 20px auto;
+}

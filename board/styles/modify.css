@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#modifyFrm div {
+    width: 70%;
+    margin: 20px auto;
+}
+
+input[type="submit"], #back {
+    margin-left: 200px;
+}

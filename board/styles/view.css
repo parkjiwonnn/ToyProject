@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#viewFrm div {
+    width: 70%;
+    margin: 20px auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 20px auto;
+}
+
+#modify {
+    margin-right: 10px;
+}
+
+#delete {
+    margin-left: 10px;
+}

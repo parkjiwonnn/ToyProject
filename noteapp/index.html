@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+
+    <link rel="stylesheet" href="./styles/notelistpage.css">
+    <link rel="stylesheet" href="./styles/noteaddpage.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Notes App</h1>
+            <p>Take notes and never forget.</p>
+        </div>
+
+        <!-- note list page -->
+        <div id="notelistpage" style="display: block;">
+            <form class="search">
+                <input type="text" name="search" placeholder="search">
+            </form>
+    
+            <ul class="notelist">
+                <!-- <div class="note">
+                    <p class="notep">title</p>
+                </div>     -->
+            </ul>
+    
+            <footer class="addlistfooter">
+                <button class="add">Create Note</button>
+            </footer>
+        </div>
+        
+
+        <!-- note add page -->
+        <div id="addNotePage" style="display: none;">
+            <button class="back">Back</button>
+
+            <form class="noteForm">
+                <input type="text" name="noteTitle" placeholder="Title">
+                <textarea name="noteContent" placeholder="Contents"></textarea>
+            </form>
+
+            <footer class="addnotefooter">
+                <button class="remove">Remove Note</button>
+                <button class="complete">Done</button>
+            </footer>
+        </div>
+
+    </div>
+</body>
+<script type="module" src="./scripts/script.js"></script>
+<script type="module" src="./scripts/noteadd&edit.js"></script>
+<script type="module" src="./scripts/notedelete.js"></script>
+<script type="module" src="./scripts/notesearch.js"></script>
+</html>

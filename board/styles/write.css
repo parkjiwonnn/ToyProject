@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#writeFrm div {
+    width: 70%;
+    margin: 20px auto;
+}
+
+input[name="subject"],
+input[name="writer"],
+textarea[name="content"] {
+    margin-left: 10px;
+    width: 400px;
+}
+
+input[type="submit"] {
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.goback {
+    margin-left: 200px;
+}
