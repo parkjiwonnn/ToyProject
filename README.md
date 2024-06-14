@@ -1,4 +1,4 @@
-#### 1.TodoList
+### 1.TodoList
 
 #### 🌱 기간
 
@@ -12,7 +12,7 @@
 
 <br/>
    
-#### 2. Note_app
+### 2. Note_app
 
 #### 🌱 기간
 
@@ -31,7 +31,7 @@ https://velog.io/@devstone/React-Toy-Project-Note-App-%EB%85%B8%ED%8A%B8%EC%95%B
 
 <br/>
 
-#### 3. 캘린더
+### 3. 캘린더
 
 #### 🌱 기간
 
@@ -46,7 +46,7 @@ https://velog.io/@devstone/React-Toy-Project-Note-App-%EB%85%B8%ED%8A%B8%EC%95%B
 
 <br/>
 
-#### 4. 게시판(CRUD)
+### 4. 게시판(CRUD)
 
 #### 🌱 기간
 
@@ -65,7 +65,7 @@ https://cloudcoke.tistory.com/31
 
 <br/>
 
-#### 5. 노션(notion)
+### 5. 노션(notion)
 
 #### 🌱 기간
 
